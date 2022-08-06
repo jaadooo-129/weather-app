@@ -69,7 +69,7 @@ function App() {
             className="search-bar"
             placeholder="Search..."
             onChange={e => setQuery(e.target.value)}
-            value={query}
+            //value={query}
             onKeyPress={store}
           />
         </div>
@@ -84,6 +84,7 @@ function App() {
               {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">{weather.weather[0].main}</div>
+            <div className="w"><p>(Enter to save City)</p></div>
           </div>
         </div>
         ) : (<div>
