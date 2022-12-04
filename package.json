@@ -1,6 +1,6 @@
 {
   "name": "weather-react",
-  "homepage": "http://gitname.github.io/react-gh-pages",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
